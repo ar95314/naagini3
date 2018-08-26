@@ -1,3 +1,3 @@
 n=int(raw_input())
-n=n+1
-print n
+N=(n*(n+1))/2
+print N
