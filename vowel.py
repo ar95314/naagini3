@@ -1,5 +1,5 @@
-l =input("enter an alphabet:")
-if l in('a','e','i','o','u'):
-   print("%s is a vowel." % l)        
+ch =raw_input()
+if ch in('a','e','i','o','u'):
+   print("vowel")        
 else:
-   print("%s is a consonant." % l) 
+   print("consonant") 
