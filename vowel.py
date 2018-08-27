@@ -1,5 +1,5 @@
-ch =raw_input()
+ch=raw_input()
 if ch in('a','e','i','o','u'):
-   print("vowel")        
+   print("Vowel")        
 else:
-   print("consonant") 
+   print("Consonant") 
