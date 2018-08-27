@@ -1,7 +1,7 @@
-year=int(input("enter the year number:"))
-if(year%4==0):
+yr=int(raw_input())
+if(yr%4==0):
     print("yes")
-elif (year%400==0):
+elif (yr%400==0):
     print("yes")
 else:
     print("no")
