@@ -1,5 +1,5 @@
-ch =input("enter a  character:")
+ch =raw_input()
 if (ch>='a' and ch<='z'):
-   print(ch,"is character")        
+   print("Alphabet")        
 else:
-   print(ch,"is not a character") 
+   print("No") 
