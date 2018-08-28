@@ -1,6 +1,11 @@
 num=int(raw_input())
-if(num%2==0):
-    print("no")
-else:
-    print("yes")
+if num>1:
+    for i in range(2,num):
+        if (num%i)==0:
+            print("no")
+            break
+        else:
+            print("yes")
+
+         
  
