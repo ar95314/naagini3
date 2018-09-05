@@ -5,7 +5,7 @@ i=2
 if x<=0:
     print("positive")
 elif x==1:
-    print a1,
+    print 1,
 else:
     print n1,
     print n2,
