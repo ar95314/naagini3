@@ -1,4 +1,5 @@
+# your code goes here
 import re
-x = raw_input()
-new = re.sub('[\w]+' ,'',x)
+a = raw_input()
+new = re.sub('[\w]+' ,'',a)
 print (len(new))
