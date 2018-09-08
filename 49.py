@@ -1,2 +1,2 @@
-n,k=map(int,raw_input().split())
-print n+k
+c,d=map(int,raw_input().split())
+print c+d
