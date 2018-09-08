@@ -3,7 +3,7 @@ list=[int(s) for s in raw_input().split()]
 if k in list:
     count=list.count(k)
     print count
- else:
+else:
     print 0
     
 
