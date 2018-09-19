@@ -1,4 +1,4 @@
-m=raw_input()
+n=raw_input()
 """if all(c in '01' for c in n):
     print "Yes"
 else:
