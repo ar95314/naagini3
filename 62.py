@@ -1,10 +1,10 @@
-n=raw_input()
-"""if all(c in '01' for c in n):
+m=raw_input()
+"""if all(c in '01' for c in m):
     print "Yes"
 else:
     print "No"
     """
-if not(n.translate(None,'01')):
+if not(m.translate(None,'01')):
     print "Yes"
 else:
     print "No"
