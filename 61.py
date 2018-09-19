@@ -1,2 +1,2 @@
-s,n=map(str,raw_input().split())
-print(s[:int(n)])
+x,y=map(str,raw_input().split())
+print(x[:int(y)])
