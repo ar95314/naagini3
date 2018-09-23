@@ -6,6 +6,6 @@ def sort(values):
 				values[i] = values[j]
 				values[j] = temp
 y = raw_input().rstrip()
-yList = list(x)
+yList = list(y)
 sort(yList)
 print("".join(yList))
