@@ -5,7 +5,7 @@ def sort(values):
 				temp = values[i]
 				values[i] = values[j]
 				values[j] = temp
-x = raw_input().rstrip()
-xList = list(x)
-sort(xList)
-print("".join(xList))
+y = raw_input().rstrip()
+yList = list(x)
+sort(yList)
+print("".join(yList))
