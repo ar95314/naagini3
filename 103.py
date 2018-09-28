@@ -1,12 +1,12 @@
-a= raw_input().rstrip()
+x= raw_input().rstrip()
 newWordBegins = True
 result = ''
-for c in a:
-	if c == ' ':
+for z in x:
+	if z == ' ':
 		newWordBegins = True		
 	elif newWordBegins:
 		newWordBegins = False
-		c = chr(ord(c) - 32)
-	result += c
+		z = chr(ord(z) - 32)
+	result += z
 
 print(result)
