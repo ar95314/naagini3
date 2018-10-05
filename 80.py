@@ -1,4 +1,4 @@
-m=int(raw_input())
-for i in str(m):
-      if (int(i)%2!=0):
-	      print i,
+n=int(raw_input())
+for s in str(n):
+      if (int(s)%2!=0):
+	      print s,
