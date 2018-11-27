@@ -1,3 +1,3 @@
-celsius=int(raw_input())
-kelvin=celsius+273
-print kelvin
+d=int(raw_input())
+k=d+273
+print k
