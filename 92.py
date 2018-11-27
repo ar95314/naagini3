@@ -1,3 +1,3 @@
 l=int(raw_input())
-list=[int(a) for ain raw_input().split()]
+list=[int(c) for c in raw_input().split()]
 print sum(list)
