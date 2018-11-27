@@ -1,3 +1,3 @@
-cel=int(raw_input())
-kel=cel+273
-print kel
+celsius=int(raw_input())
+kelvin=celsius+273
+print kelvin
