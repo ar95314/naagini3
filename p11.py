@@ -1,9 +1,9 @@
 def main():
-	f=1
-	n=int(input())
-	for i in range(1,n):
-		f=f*i
-	print(f)
+	c=1
+	m=int(input())
+	for i in range(1,m):
+		c=c*i
+	print(c)
 try:
 	main()
 except:
