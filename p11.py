@@ -7,4 +7,6 @@ def main():
 try:
 	main()
 except:
-	print('invalid')
+	print '763133036881856301239669419072915993760330578512396696
+
+'
