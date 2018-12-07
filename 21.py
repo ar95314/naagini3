@@ -1,4 +1,5 @@
-N,A,D=map(int,raw_input().split())
-c=A+D
-e=N*c
-print(e)
+n,a,d = map(int,raw_input().split())
+s = a + (n-1)*d
+sum = n*(a+s)//2
+print(sum)
+
