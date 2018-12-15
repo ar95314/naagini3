@@ -1,13 +1,13 @@
-m=int(raw_input())
-i=1
-while(i<=m):
-    k=0
-    if(m%i==0):
-        j=1
-        while(j<=i):
-            if(i%j==0):
-                k=k+1
-            j=j+1
-        if(k==2):
-            print(i),
-    i=i+1
+c=int(raw_input())
+x=1
+while(x<=c):
+    z=0
+    if(c%x==0):
+        y=1
+        while(y<=x):
+            if(x%y==0):
+                z=z+1
+            y=y+1
+        if(z==2):
+            print(x),
+    x=x+1
