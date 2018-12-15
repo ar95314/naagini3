@@ -1,8 +1,8 @@
-n=int(raw_input())
+m=int(raw_input())
 i=1
-while(i<=n):
+while(i<=m):
     k=0
-    if(n%i==0):
+    if(m%i==0):
         j=1
         while(j<=i):
             if(i%j==0):
